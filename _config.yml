@@ -78,5 +78,5 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: github.com/rainmoring/rainmoring.github.io.git
+  repo: https://www.github.com/rainmoring/rainmoring.github.io
   branch: master

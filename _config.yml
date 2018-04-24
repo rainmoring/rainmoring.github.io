@@ -3,12 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Wink&Will
+subtitle: Where love happening
+description: 浮生若梦，为欢几何
+author: Will Boo
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,9 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: github.com/rainmoring/rainmoring.github.io.git
+  branch: master
